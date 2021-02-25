@@ -1,0 +1,49 @@
+{
+  "name": "HealthTracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server/server.js",
+    "build": "NODE_ENV=production webpack",
+    "dev": "cross-env NODE_ENV=development webpack serve --hot & nodemon server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericmarc159/HealthTracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericmarc159/HealthTracker/issues"
+  },
+  "homepage": "https://github.com/ericmarc159/HealthTracker#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.1",
+    "@babel/preset-env": "^7.13.5",
+    "@babel/preset-react": "^7.12.13",
+    "@hot-loader/react-dom": "^17.0.1",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.20.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "prettier": "^2.2.1",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7",
+    "pg": "^8.5.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-hot-loader": "^4.13.0"
+  }
+}
