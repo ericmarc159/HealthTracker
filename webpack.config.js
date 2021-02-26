@@ -7,6 +7,7 @@ module.exports = {
       filename: 'bundle.js',
     },
     devServer: {
+      historyApiFallback: true,
       hot: true,
       publicPath: '/dist',
       host: 'localhost',
